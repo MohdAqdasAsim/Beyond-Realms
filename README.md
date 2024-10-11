@@ -131,8 +131,8 @@ _Below is an example of how you can instruct your audience on installing and set
    ```
 5. Change git remote url to avoid accidental pushes to base project
    ```sh
-  git remote set-url origin <your_github_username>/<your_repo_name>
-  git remote -v # confirm the changes
+   git remote set-url origin your_github_username/your_repo_name
+   git remote -v # confirm the changes
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
