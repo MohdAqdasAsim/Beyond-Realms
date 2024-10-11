@@ -1,5 +1,7 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+
 <a id="readme-top"></a>
+
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
 *** that would make this better, please fork the repo and create a pull request
@@ -16,10 +18,9 @@
 *** for contributors-url, forks-url, etc.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
@@ -27,7 +28,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/MohdAqdasAsim/Beyond-Realms">
-    <img src="logo.svg" alt="Logo" width="80" height="80">
+    <img src="/public/logo.svg" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Beyond Realms</h3>
@@ -49,6 +50,13 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -58,9 +66,10 @@
 </details>
 
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://beyond-realms.netlify.app/)
 
 There are many amazing game catalog websites out there, but **Beyond Realms** was built as a learning project with something special in mind: providing a simple yet interactive way to explore games using the RAWG API. Here's why Beyond Realms stands out:
 
@@ -76,17 +85,18 @@ Of course, this project is a work in progress. If you'd like to contribute or su
 
 This project was built using several key technologies to ensure a responsive and dynamic experience for users. Here are the major frameworks and libraries that form the foundation of Beyond Realms:
 
-* [![React][React.js]][React-url]
-* [![TypeScript][TypeScript.com]][TypeScript-url]
-* [![Tailwind CSS][TailwindCSS.com]][Tailwind-url]
-* [![React Router][ReactRouter.com]][ReactRouter-url]
-* [![Vite][Vitejs.dev]][Vite-url]
+- [![React][React.js]][React-url]
+- [![TypeScript][TypeScript.com]][TypeScript-url]
+- [![Tailwind CSS][TailwindCSS.com]][Tailwind-url]
+- [![React Router][ReactRouter.com]][ReactRouter-url]
+- [![Vite][Vitejs.dev]][Vite-url]
 
 These tools streamline the development process and enhance the website's functionality and performance.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
@@ -98,31 +108,45 @@ This is an example of how to list things you need to use the software and how to
 * npm
   ```sh
   npm install npm@latest -g
+  ```
+
+### Installation
+
+_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+  ```
+
+1. Get a free API Key at [https://rawg.io/apidocs](https://rawg.io/apidocs)
+2. Clone the repo
+   ```sh
+   git clone https://github.com/MohdAqdasAsim/Beyond-Realms.git
    ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+
 4. Enter your API in `config.js`
    ```js
-   const API_KEY = 'ENTER YOUR API';
+   const API_KEY = `YOUR_API_KEY`; // Replace with your actual API key
    ```
 5. Change git remote url to avoid accidental pushes to base project
    ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
+  git remote set-url origin <your_github_username>/<your_repo_name>
+  git remote -v # confirm the changes
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- USAGE EXAMPLES -->
+
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
+Here are some more screenshots of the website:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
 Contributions make the open-source community such an incredible place to learn, inspire, and innovate. Any contributions you make are **greatly appreciated** and help enhance this project.
@@ -130,6 +154,7 @@ Contributions make the open-source community such an incredible place to learn, 
 If you have a suggestion to improve the project, feel free to fork the repo and submit a pull request. You can also open an issue with the "enhancement" tag. Don't forget to give the project a star if you find it helpful—thanks for your support!
 
 Steps to Contribute:
+
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
@@ -138,18 +163,16 @@ Steps to Contribute:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- CONTACT -->
+
 ## Contact
 
 Mohd Aqdas Asim - [@mohdaqdasasim](https://www.linkedin.com/in/mohd-aqdas-asim/) - mohdaqdasasim@gmail.com
@@ -158,31 +181,31 @@ Project Link: [https://github.com/MohdAqdasAsim/Beyond-Realms](https://github.co
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- ACKNOWLEDGMENTS -->
+
 ## Acknowledgments
 
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-* [RAWG API](https://rawg.io/apidocs)
-* [Netlify](https://www.netlify.com/)
-* [Tailwind CSS](https://tailwindcss.com/docs/)
-* [Vite](https://vite.dev/)
+- [Choose an Open Source License](https://choosealicense.com)
+- [GitHub Pages](https://pages.github.com)
+- [React Icons](https://react-icons.github.io/react-icons/search)
+- [RAWG API](https://rawg.io/apidocs)
+- [Netlify](https://www.netlify.com/)
+- [Tailwind CSS](https://tailwindcss.com/docs/)
+- [Vite](https://vite.dev/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/MohdAqdasAsim/Beyond-Realms.svg?style=for-the-badge
 [contributors-url]: https://github.com/MohdAqdasAsim/Beyond-Realms/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/MohdAqdasAsim/Beyond-Realms.svg?style=for-the-badge
 [forks-url]: https://github.com/MohdAqdasAsim/Beyond-Realms/network/members
+[license-shield]: https://img.shields.io/github/license/MohdAqdasAsim/Beyond-Realms.svg?style=for-the-badge
+[license-url]: https://github.com/MohdAqdasAsim/Beyond-Realms/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/mohd-aqdas-asim/
 [product-screenshot]: images/screenshot.png
