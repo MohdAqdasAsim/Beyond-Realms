@@ -188,7 +188,7 @@ Use this space to list resources you find helpful and would like to give credit 
 [license-url]: https://github.com/MohdAqdasAsim/Beyond-Realms/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/mohd-aqdas-asim/
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: /mockups/mockup-1.png
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [TypeScript.com]: https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white
